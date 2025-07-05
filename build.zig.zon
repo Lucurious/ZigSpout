@@ -1,0 +1,18 @@
+.{
+    .name = .spout,
+    .version = "2.14.3-2",
+    .dependencies = .{
+        .spout = .{
+            .url = "git+https://github.com/leadedge/Spout2.git#5c05489d2fc5fa4dd689a2a13ac65c3c4e976ae2",
+            .hash = "N-V-__8AADb-iQDx0KzN2qM6lAQGiOhq9-iQ8KBC1lxsTAde",
+        },
+    },
+    .minimum_zig_version = "0.14.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    },
+    .fingerprint = 0x55c479155fee7a1b,
+}
