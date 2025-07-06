@@ -9,6 +9,7 @@
     },
     .minimum_zig_version = "0.14.0",
     .paths = .{
+        "src/",
         "build.zig",
         "build.zig.zon",
         "LICENSE",
